@@ -1,0 +1,63 @@
+[
+  {
+    "price": 26.99,
+    "img": "https://i.ibb.co/ykYDGTN/chris-king-Vq-Lyo-Rjhiss-unsplash.jpg",
+    "sellerName": "Faruk Hasan",
+    "sellerEmail": "drifttoys@example.com",
+    "available_quantity": 6,
+    "subcategory": "Drift Cars",
+    "rating": 4,
+    "toy_details": "Experience the thrill of drifting with the Drift Cars! These high-performance RC cars are designed for sideways action and precise control. With their slick tires, adjustable suspension, and responsive steering, they excel in executing drift maneuvers. The Drift Cars are perfect for racing and performing stylish drifts. With a rating of 4, they provide an exciting and dynamic driving experience. Get ready to unleash your drifting skills with these incredible cars!",
+    "seller_details": "Faruk Hasan is an experienced seller specializing in drift toys and RC cars. With a deep knowledge of the drifting culture, Faruk Hasan offers top-notch products and exceptional customer service. If you have any questions or need assistance, feel free to reach out to Faruk Hasan at drifttoys@example.com."
+  },
+  {
+    "price": 34.99,
+    "img": "https://i.ibb.co/6wR26pY/remote-control-helicopter.jpg",
+    "sellerName": "Sarah Miller",
+    "sellerEmail": "sarahsToys@example.com",
+    "available_quantity": 8,
+    "subcategory": "Remote Control Helicopters",
+    "rating": 4.5,
+    "toy_details": "Take to the skies with our Remote Control Helicopters! These helicopters are equipped with precision controls, stable flight technology, and LED lights for night flying. Whether you're a beginner or an experienced pilot, these helicopters offer an exciting and fun flying experience. They have a rating of 4.5 for their outstanding performance. Contact Sarah Miller at sarahsToys@example.com for more information."
+  },
+  {
+    "price": 19.99,
+    "img": "https://i.ibb.co/FnTzxLw/off-road-rc-truck.jpg",
+    "sellerName": "John Anderson",
+    "sellerEmail": "johnsRCs@example.com",
+    "available_quantity": 10,
+    "subcategory": "Off-Road RC Trucks",
+    "rating": 4.2,
+    "toy_details": "Get ready for off-road adventures with our Off-Road RC Trucks! These rugged trucks are built to tackle tough terrain with their high ground clearance and durable design. They provide an exciting and challenging experience for RC enthusiasts. With a rating of 4.2, these trucks are ready for action. Contact John Anderson at johnsRCs@example.com for more details."
+  },
+  {
+    "price": 45.99,
+    "img": "https://i.ibb.co/1dqMSHf/rc-speed-boat.jpg",
+    "sellerName": "Emma Roberts",
+    "sellerEmail": "emmasToys@example.com",
+    "available_quantity": 5,
+    "subcategory": "RC Speed Boats",
+    "rating": 4.8,
+    "toy_details": "Experience high-speed aquatic adventures with our RC Speed Boats! These boats are designed for maximum speed and control on the water. They come with powerful motors and easy-to-use remote controls. Whether you're racing on a lake or having a relaxing day by the water, these boats will provide an exciting experience. With a rating of 4.8, they are highly recommended for water enthusiasts. Contact Emma Roberts at emmasToys@example.com for more information."
+  },
+  {
+    "price": 39.99,
+    "img": "https://i.ibb.co/Nrz2JQh/rc-drone.jpg",
+    "sellerName": "Alex Turner",
+    "sellerEmail": "alexToys@example.com",
+    "available_quantity": 7,
+    "subcategory": "RC Drones",
+    "rating": 4.3,
+    "toy_details": "Explore the skies with our RC Drones! These drones are equipped with HD cameras and stable flight capabilities, making them perfect for aerial photography and exploration. Whether you're a beginner or an experienced pilot, these drones offer a thrilling flying experience. With a rating of 4.3, they provide reliable performance. Contact Alex Turner at alexToys@example.com for more details."
+  },
+  {
+    "price": 29.99,
+    "img": "https://i.ibb.co/wLqHcmv/robotic-arm-kit.jpg",
+    "sellerName": "David Smith",
+    "sellerEmail": "davidsToys@example.com",
+    "available_quantity": 12,
+    "subcategory": "Robotic Arm Kits",
+    "rating": 4.6,
+    "toy_details": "Discover the world of robotics with our Robotic Arm Kits! These kits include everything you need to build and control your robotic arm. With precision control and various programmable features, you can learn and have fun with robotics. With a rating of 4.6, they are highly educational and entertaining. Contact David Smith at davidsToys@example.com for more information."
+  }
+]
