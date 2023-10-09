@@ -52,6 +52,20 @@ async function run() {
       res.send(result);
     });
 
+    // shop by category api
+    app.get("/subcategories/toys/:subcategory", async (req, res) => {
+      const subcategory = req.params.subcategory;
+      const query = { subcategory: subcategory };
+      try {
+        const data = await alltoysCollection.find(query).toArray();
+        res.json(data);
+      } catch (error) {
+        res
+          .status(500)
+          .json({ error: "An error occurred while fetching data." });
+      }
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
