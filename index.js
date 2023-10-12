@@ -70,8 +70,16 @@ async function run() {
     app.get("/toy-details/:id", async (req, res) => {
       const id = req.params.id;
       const filter = { _id: new ObjectId(id) };
-
       const result = await alltoysCollection.findOne(filter);
+      res.send(result);
+    });
+
+    // get toys by using seller email
+    app.get("/my-toys", async (req, res) => {
+      const sellerEmail = req.query.email;
+      const result = await alltoysCollection
+        .find({ sellerEmail: sellerEmail })
+        .toArray();
       res.send(result);
     });
 
