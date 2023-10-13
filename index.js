@@ -90,6 +90,15 @@ async function run() {
       res.send(result);
     });
 
+    // Delete a toy by ID
+    app.delete("/delete-toy/:id", async (req, res) => {
+      const toyId = req.params.id;
+      const query = { _id: new ObjectId(toyId) };
+
+      const result = await alltoysCollection.deleteOne(query);
+      res.send(result);
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
