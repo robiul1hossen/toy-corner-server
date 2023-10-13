@@ -99,6 +99,25 @@ async function run() {
       res.send(result);
     });
 
+    // Update a toy by ID
+    app.patch("/update-toy/:id", (req, res) => {
+      const toyId = req.params.id;
+      const updatedToyData = req.body; // Assume the updated data is sent in the request body
+
+      // Example: Update the toy in a MongoDB collection
+      ToyModel.findByIdAndUpdate(toyId, updatedToyData, { new: true })
+        .then((updatedToy) => {
+          if (!updatedToy) {
+            return res.status(404).json({ error: "Toy not found" });
+          }
+          return res.json(updatedToy);
+        })
+        .catch((error) => {
+          console.error(error);
+          return res.status(500).json({ error: "Internal server error" });
+        });
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
